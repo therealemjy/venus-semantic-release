@@ -13,6 +13,7 @@ export interface UseGetMainPoolTotalXvsDistributedOutput {
 }
 
 const useGetMainPoolTotalXvsDistributed = (): UseGetMainPoolTotalXvsDistributedOutput => {
+  // TODO: fetch from contracts
   const { data: getMainMarketsData, isLoading: isGetMainAssetsLoading } = useGetMainMarkets();
 
   const totalXvsDistributedWei = useMemo(() => {
