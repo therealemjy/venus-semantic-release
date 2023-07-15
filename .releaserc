@@ -6,12 +6,16 @@
         "preset": "conventionalcommits",
         "releaseRules": [
           {
+            "breaking": true,
+            "release": "major"
+          },
+          {
             "type": "build",
-            "release": "minor"
+            "release": false
           },
           {
             "type": "ci",
-            "release": "patch"
+            "release": false
           },
           {
             "type": "feat",
@@ -27,7 +31,7 @@
           },
           {
             "type": "test",
-            "release": "patch"
+            "release": false
           }
         ],
         "parserOpts": {
