@@ -73,6 +73,25 @@
         ],
         "message": "chore(release): ${nextRelease.version} [skip ci]"
       }
+    ],
+    [
+      "@saithodev/semantic-release-backmerge",
+      {
+        "backmergeBranches": [
+          {
+            "from": "main",
+            "to": "staging"
+          }
+        ],
+        "plugins": [
+          [
+            "@semantic-release/exec",
+            {
+              "successCmd": "echo 'Version in master is ${nextRelease.version}'"
+            }
+          ]
+        ]
+      }
     ]
   ],
   "branches": [
