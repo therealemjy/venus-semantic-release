@@ -1,3 +1,10 @@
+## [2.3.0-develop.2](https://github.com/therealemjy/venus-semantic-release/compare/v2.3.0-develop.1...v2.3.0-develop.2) (2023-07-18)
+
+
+### Features
+
+* just a test commit ([0782e98](https://github.com/therealemjy/venus-semantic-release/commit/0782e98841d0c92e4176407840c1f05a267baef6))
+
 ## [2.3.0-develop.1](https://github.com/therealemjy/venus-semantic-release/compare/v2.2.6...v2.3.0-develop.1) (2023-07-17)
 
 
